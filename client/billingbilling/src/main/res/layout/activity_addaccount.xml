@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#1C86EE"
+        >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_height="32dp"
+            android:layout_width="32dp"
+            android:layout_gravity="center"
+            android:background="@drawable/back"
+            />
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="添加账目"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_descriptipn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="请输入账目的描述"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edit_money"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="请输入金额"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <RadioButton
+            android:id="@+id/rbtn_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="支出"
+            android:checked="true"
+            android:layout_weight="1"
+            />
+
+        <RadioButton
+            android:layout_marginLeft="100dp"
+            android:id="@+id/rbtn_income"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="收入"
+            android:layout_weight="1"
+            />
+
+        </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <Button
+            android:id="@+id/btn_commit"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/btn_commit"
+            android:layout_weight="1"
+            android:background="#1C86EE"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            />
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_canc"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="@string/btn_cancel"-->
+            <!--android:layout_weight="1"-->
+            <!--/>-->
+
+    </LinearLayout>
+
+</LinearLayout>

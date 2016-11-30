@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#1C86EE"
+        >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_height="32dp"
+            android:layout_width="32dp"
+            android:layout_gravity="center"
+            android:background="@drawable/back"
+            />
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="注册"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="90dp"
+        >
+        <ImageView android:id="@+id/img_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user"
+            android:layout_marginLeft="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_ruser"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:hint="请输入你的用户名"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+
+
+        <ImageView android:id="@+id/img_passwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/passwd"
+            android:layout_marginLeft="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_rpasswd"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:hint="请输入你的密码"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/btn_register"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:background="#1C86EE"
+            android:textColor="#ffffff"
+            />
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_cancel"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="@string/btn_cancel"-->
+            <!--android:layout_weight="1"-->
+            <!--/>-->
+
+        </LinearLayout>
+
+</LinearLayout>

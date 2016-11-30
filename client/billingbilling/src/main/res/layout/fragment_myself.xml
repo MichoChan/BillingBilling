@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+
+    <ImageView
+        android:id="@+id/img_head"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/head"
+        />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:text="MichealChan"
+            android:layout_marginTop="70dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#e6e6e6"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/income"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/module_income"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="收入模块"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#e6e6e6"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/pay"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/module_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="支出模块"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#e6e6e6"
+    android:layout_marginTop="30dp"
+    >
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/addmodule"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/module_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加模块"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#e6e6e6"
+        android:layout_marginTop="60dp"
+        >
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/exit"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="退出"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

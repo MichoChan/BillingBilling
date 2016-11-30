@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="90dp"
+        >
+        <ImageView android:id="@+id/img_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user"
+        android:layout_marginLeft="5dp"
+        />
+
+        <EditText
+            android:id="@+id/edit_user"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:hint="请输入你的用户名"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+
+
+        <ImageView android:id="@+id/img_passwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/passwd"
+            android:layout_marginLeft="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_passwd"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:hint="请输入你的密码"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:background="#1C86EE"
+        android:textColor="#ffffff"
+        />
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        >
+
+    <TextView
+        android:id="@+id/hint_register"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="您没账号？来注册一个吧"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        />
+
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BillingBilling</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_income_module">收入模块</string>
+    <string name="btn_pay_module">支出模块</string>
+    <string name="btn_add_module">添加模块</string>
+    <string name="btn_commit">提交</string>
+</resources>
